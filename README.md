@@ -20,4 +20,3 @@ Volume Edited by:
 
 Series Editors:
   * Neil D. Lawrence
-  * Mark Reid
