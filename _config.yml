@@ -1,0 +1,81 @@
+---
+booktitle: Proceedings of The 33rd International Conference on Algorithmic Learning
+  Theory
+shortname: ALT
+volume: '167'
+year: '2022'
+start: 2022-03-29
+end: 2022-04-01
+published: 2022-03-20
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: ALT-2022
+month: 0
+cycles: false
+bibtex_editor: Dasgupta, Sanjoy and Haghtalab, Nika
+editor:
+- given: Sanjoy
+  family: Dasgupta
+- given: Nika
+  family: Haghtalab
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The 33rd International Conference on Algorithmic Learning Theory
+    Held in Paris, France on 29 March to 01 April 2022
+
+  Published as Volume 167 by the Proceedings of Machine Learning Research on 20 March 2022.
+
+  Volume Edited by:
+    Sanjoy Dasgupta
+    Nika Haghtalab
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 29 Mar--01 Apr
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v167"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v167
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v167
+email: ''
+conference:
+  name: International Conference on Algorithmic Learning Theory
+  url: http://algorithmiclearningtheory.org/alt2022/
+  location: Paris, France
+  dates:
+  - 2022-03-29
+  - 2022-03-30
+  - 2022-03-31
+  - 2022-04-01
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v167/alt22.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v167/alt22.bib
