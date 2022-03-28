@@ -56,28 +56,21 @@ abstract  = {We consider a lifelong learning scenario in which a learner faces a
 author    = {Binnendyk, Eric and Carmosino, Marco and Kolokolova, Antonina and Ramyaa, R and Sabin, Manuel},
 title     = {Learning with Distributional Inverters},
 pages     = {90--106},
-abstract  = {We generalize the ``indirect learning'' technique of
-Furst et al. (1991) to reduce from learning a concept
-class over a samplable distribution $\mu$ to learning the same concept
-class over the uniform distribution. The reduction succeeds when the
-sampler for $\mu$ is both contained in the target concept class and
-efficiently invertible in the sense of
-Impagliazzo and Luby (1989). We give two applications.
-
-\begin{itemize}
-\item We show that $\mathsf{AC}^0[q]$ is learnable over any succinctly-described product
-  distribution. $\mathsf{AC}^0[q]$ is the class of constant-depth Boolean
-  circuits of polynomial size with AND, OR, NOT, and counting modulo
-  $q$ gates of unbounded fanins. Our algorithm runs in randomized
-  quasi-polynomial time and uses membership queries.
-\item If there is a strongly useful natural property in the sense of
-  Razborov and Rudich (1997) --- an efficient algorithm
-  that can distinguish between random strings and strings of
-  non-trivial circuit complexity --- then general polynomial-sized
-  Boolean circuits are learnable over any efficiently samplable
-  distribution in randomized polynomial time, given membership queries
-  to the target function.
-\end{itemize}}
+abstract  = {We generalize the ``indirect learning'' technique of Furst et al. (1991) to
+  reduce from learning a concept class over a samplable distribution $\mu$ to learning
+  the same concept class over the uniform distribution. The reduction succeeds when
+  the sampler for $\mu$ is both contained in the target concept class and efficiently
+  invertible in the sense of Impagliazzo and Luby (1989). We give two applications.
+  We show that $\mathsf{AC}^0[q]$ is learnable over any succinctly-described
+  product distribution. $\mathsf{AC}^0[q]$ is the class of constant-depth Boolean
+  circuits of polynomial size with AND, OR, NOT, and counting modulo $q$ gates of
+  unbounded fanins. Our algorithm runs in randomized quasi-polynomial time and uses
+  membership queries. 
+  If there is a strongly useful natural property in the
+  sense of Razborov and Rudich (1997) — an efficient algorithm that can distinguish
+  between random strings and strings of non-trivial circuit complexity — then general
+  polynomial-sized Boolean circuits are learnable over any efficiently samplable distribution
+  in randomized polynomial time, given membership queries to the target function.
 }
 
 
@@ -120,9 +113,7 @@ author    = {Chen, Zixiang and Zhou, Dongruo and Gu, Quanquan},
 title     = {Faster Perturbed Stochastic Gradient Methods for Finding Local
 Minima},
 pages     = {176--204},
-abstract  = {
-Escaping from saddle points and finding local minimum is a central problem in nonconvex optimization.
-Perturbed gradient methods are perhaps the simplest approach for this problem. However, to find $(\epsilon, \sqrt{\epsilon})$-approximate local minima, the existing best stochastic gradient complexity for this type of algorithms is $\tilde O(\epsilon^{-3.5})$, which is not optimal. In this paper, we propose \texttt{LENA} (\textbf{L}ast st\textbf{E}p shri\textbf{N}k\textbf{A}ge), a faster perturbed stochastic gradient framework for finding local minima.  We show that $\algname$ with stochastic gradient estimators such as SARAH/SPIDER and STORM can find $(\epsilon, \epsilon_{H})$-approximate local minima within $\tilde O(\epsilon^{-3} + \epsilon_{H}^{-6})$ stochastic gradient evaluations (or $\tilde O(\epsilon^{-3})$ when $\epsilon_H = \sqrt{\epsilon}$). The core idea of our framework is a step-size shrinkage scheme to control the average movement of the iterates, which leads to faster convergence to the local minima.}
+abstract  = {Escaping from saddle points and finding local minimum is a central problem in nonconvex optimization. Perturbed gradient methods are perhaps the simplest approach for this problem. However, to find $(\epsilon, \sqrt{\epsilon})$-approximate local minima, the existing best stochastic gradient complexity for this type of algorithms is $\tilde O(\epsilon^{-3.5})$, which is not optimal. In this paper, we propose LENA (Last stEp shriNkAge), a faster perturbed stochastic gradient framework for finding local minima. We show that LENA with stochastic gradient estimators such as SARAH/SPIDER and STORM can find $(\epsilon, \epsilon_{H})$-approximate local minima within $\tilde O(\epsilon^{-3} + \epsilon_{H}^{-6})$ stochastic gradient evaluations (or $\tilde O(\epsilon^{-3})$ when $\epsilon_H = \sqrt{\epsilon}$). The core idea of our framework is a step-size shrinkage scheme to control the average movement of the iterates, which leads to faster convergence to the local minima.}
 }
 
 
@@ -183,7 +174,7 @@ guarantees. }
 }
 
 @InProceedings{cutkosky22,
-author    = {"Cutkosky, Ashok" and "Dann, Chris" and "Das, Abhimanyu" and "Zhang, Qiuyi"},
+author    = {Cutkosky, Ashok and Dann, Chris and Das, Abhimanyu and Zhang, Qiuyi},
 title     = {Leveraging Initial Hints for Free in Stochastic Linear Bandits},
 pages     = {282--318},
 abstract  = {
@@ -223,7 +214,7 @@ abstract  = {Contextual bandit algorithms are widely used in domains where it is
 author    = {Gopalan, Parikshit and Reingold, Omer and Sharan, Vatsal and Wieder, Udi},
 title     = {Multicalibrated Partitions for Importance Weights},
 pages     = {408--435},
-abstract  = {The ratio between the probability that two distributions assign to points in the domain are called importance weights or density ratios and they play a fundamental role in machine learning and information theory. However, there are strong lower bounds known for point-wise accurate estimation of density ratios, and most theoretical guarantees require strong assumptions about the distributions. We motivate the problem of seeking accuracy guarantees for the distribution of importance weights conditioned on sub-populations belonging to a family $\mC$ of subsets of the domain. We formulate {\em sandwiching bounds} for sets: upper and lower bounds on the expected importance weight conditioned on a set; as a notion of set-wise accuracy for importance weights. We argue that they capture intuitive expectations about importance weights, and are not subject to the strong lower bounds for point-wise guarantees. We introduce the notion of multicalibrated partitions for a class $\mathcal{C}$, inspired by recent work on multi-calibration in supervised learning and show that the importance weights resulting from such partitions do satisfy sandwiching bounds. In contrast, we show that importance weights returned by popular algorithms in the literature may violate the  sandwiching bounds. We present an efficient algorithm for constructing multi-calibrated partitions, given a weak agnostic learner for the class $\mathcal{C}$.}
+abstract  = {The ratio between the probability that two distributions assign to points in the domain are called importance weights or density ratios and they play a fundamental role in machine learning and information theory. However, there are strong lower bounds known for point-wise accurate estimation of density ratios, and most theoretical guarantees require strong assumptions about the distributions. We motivate the problem of seeking accuracy guarantees for the distribution of importance weights conditioned on sub-populations belonging to a family $\mathcal{C}$ of subsets of the domain. We formulate {\em sandwiching bounds} for sets: upper and lower bounds on the expected importance weight conditioned on a set; as a notion of set-wise accuracy for importance weights. We argue that they capture intuitive expectations about importance weights, and are not subject to the strong lower bounds for point-wise guarantees. We introduce the notion of multicalibrated partitions for a class $\mathcal{C}$, inspired by recent work on multi-calibration in supervised learning and show that the importance weights resulting from such partitions do satisfy sandwiching bounds. In contrast, we show that importance weights returned by popular algorithms in the literature may violate the  sandwiching bounds. We present an efficient algorithm for constructing multi-calibrated partitions, given a weak agnostic learner for the class $\mathcal{C}$.}
 }
 
 
@@ -450,7 +441,7 @@ abstract  = {We consider the minimax query complexity of online planning with a 
 
 
 @InProceedings{xu22,
-author    = {Zhiqiang, Xu and Ping, Li},
+author    = {Xu, Zhiqiang and Li, Ping},
 title     = {Faster Noisy Power Method},
 pages     = {1138--1164},
 abstract  = {Given the capability to handle diverse resource constraints, such as communication, memory, or privacy, the noisy power method, as a meta algorithm for computing the dominant eigenspace of a matrix, has found wide applications in data analysis and statistics (e.g., PCA). For an input data matrix, the performance of the algorithm, as with the noiseless case, is characterized by the spectral gap, which largely dictates the convergence rate and affects the noise tolerance level as well. A recent analysis improved the dependency over the consecutive spectral gap $(\lambda_{k}-\lambda_{k+1})$ to the dependency over $(\lambda_{k}-\lambda_{q+1})$, where $q$ could be much greater than the target rank $k$ and thus result in better performance by a significantly larger gap. However, $(\lambda_{k}-\lambda_{q+1})$ could still be quite small and potentially limit the applicability. In this paper, we further improve the dependency of the convergence rate over $O(\lambda_{k}-\lambda_{q+1})$ to dependency over $\tilde{O}(\sqrt{\lambda_{k}-\lambda_{q+1}})$ in a certain regime of a new parameter, for a faster noise-tolerant algorithm. To achieve this goal, we propose faster noisy power method which introduces the momentum acceleration into the noisy power iteration, and present a novel analysis that differs from previous ones. We also extend our algorithm to the distributed PCA and memory-efficient streaming PCA and get improved results accordingly in terms of the gap dependence.}
